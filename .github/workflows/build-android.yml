@@ -30,7 +30,7 @@ jobs:
       - name: Sync Capacitor
         run: |
           chmod +x android/gradlew
-          npx cap sync android
+          
 
       - name: Build Android APK (Debug)
         run: |
